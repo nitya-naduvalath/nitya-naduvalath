@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Nitya's Portfolio</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="wrapper">
+  <header align='center'>
+    <h1>Welcome to Nitya's website</h1>
+  </header>
+  <nav align='center'>
+    <a href='https://www.google.com/' target="_blank">Visit Google</a> &nbsp; &nbsp;
+    <a href='https://www.asu.edu'>Visit ASU</a>
+    <a href='#home'>Home</a> &nbsp; &nbsp;
+    <a href='#education'>Education</a> &nbsp; &nbsp;
+    <a href='#projects'>Projects</a> &nbsp; &nbsp;
+    <a href='#Resume'>Resume</a> &nbsp; &nbsp;
+    <a href='#contact'>Contact Me</a> &nbsp; &nbsp;
+    </nav>
+  <div align='center'>
+    <img src="clouds-1282314_1280.jpg" alt="WPCarey"
+    title="W.P. Carey School of Business" width="900px" height="600px">
+  </div>
+  <main>
+    <section id="home">
+      <h1>About Me:</h1>
+      <p> My name is <strong>Nitya</strong>. I am a student at Arizona State University. I will be graduating in the spring. </p>
+      <p> I am currently looking for and applying to jobs and hope to have a position lined up by the time I graduate.</p>
+      <p>In my free time I like to watch movies and spend time with my friends! Here is a very cute video of some baby pandas:</p>
+        <video controls poster="cutepanda.jpeg"
+          width="350" height="240">
+          <source src="babypandas.mp4" type="video/mp4">
+        </video>
+<!-- download resume link  -->
+    <br><br>
+    <br><br>
+      <p> Here is a link to view my resume:</p>
+        <a href="RESUME_Nitya_Naduvalath.pdf" download="nitya-resume">
+      <button>Download Resume</button></a>
+    <br><br>
+   <section id="education">
+        <h1>My Education: </h1>
+        <div align="center"><caption><h2><strong>Education Achivement</strong></h2></caption></div>
+        <table align="center">
+          <tr>
+            <th>Degree</th>
+            <th>Major</th>
+            <th>Year</th>
+            <th>University</th>
+          </tr>
+          <tr>
+            <td>BS</td>
+            <td class="text">Computer Information Systems</td>
+            <td>2024</td>
+            <td>Arizona State University</td>
+          </tr>
+          <tr>
+            <td>BS</td>
+            <td class="text">Business Data Analytics</td>
+            <td>2024</td>
+            <td>Arizona State University</td>
+          </tr>
+          <tr>
+        </table>
+        <!-- list those degrees  -->
+      </section>
+      <section id="projects">
+        <h2>Here are some of the projects I have worked on: </h2>
+        <ul>
+          <li>Prepared a case study presentation for my internship</li>
+          <li>Facilitating WPC 101</li>
+          <li>Conducted self audits on internal processes</li>
+        </ul>
+        <section>
+          <h3>Prepare a case study presentation for my internship</h3>
+          <p>Over the summer I interned at State Farm and was part of a group case study competition. We presented on Homeowners' Claims Outlook and won.</p>
+        </section>
+        <section>
+          <h3>Facilitating WPC 101</h3>
+          <p>I am currently serving as a WPC 101 Facilitator this semester.</p>
+        </section>
+        <section>
+          <h3>Conducted self audits on internal processes</h3>
+          <p>During my internship I did this.</p>
+        </section>
+        <section id="contact">
+          <h1>Contact Me: </h1>
+          <h3 align="center">All the * fields are required</h3>
+          <form method="POST">
+            <!-- First name  -->
+            <label for="fname">*First Name:</label>
+            <!-- <input type="text" name="fname" id="fname" value="Enter your first name"> -->
+            <input type="text" name="fname" id="fname" required>
+            <!-- Last name -->
+            <label for='lanme'>*Last name:</label>
+            <input type="text" name="lname" id="lname" required>
+            <!-- Radio buttons -->
+            <label for='user'>You are a:</label>
+            <div class="form-container">
+              <input type="radio" id='new' name="user" value="new_user">
+              <label for="new">New User</label>
+              <input type="radio" id='existing' name="user" value="existing_user">
+              <label for="existing">Existing User</label>
+            </div>
+            <!-- Select drop-down list -->
+            <label for="campus">Select a campus: </label>
+            <select name="campus">
+              <option value="t">Tempe</option>
+              <option value="w">West</option>
+              <option value="p">Poly</option>
+            </select>
+            <!-- checkboxes -->
+            <label for="transportation">Check the vehicles you own: </label>
+            <div class="form-container">
+              <input type="checkbox" name="vehicle1" value="bike">I have a bike
+              <input type="checkbox" name="vehicle2" value="car">I have a car
+              <input type="checkbox" name="vehicle3" value="boat">I have a boat
+            </div>
+            <!-- message/comment -->
+            <label for="message">Message/comments: </label>
+            <textarea rows="5" cols="20" name="message">Comments</textarea>
+
+            <!-- buttons in the same row -->
+            <div class="button-container">
+              <input type="submit" value="Submit">
+              <input type="reset" value="Cancel">
+            </div>
+
+            <!-- buttons -->
+          </form>
+    </section>
+  </main>
+  <footer align='center'>
+    <p><i><small>Copyright &copy; Nitya Naduvalath 2023</small></i><br>
+    <a href="mailto:nnaduval@asu.edu">nnaduval@asu</a><br>
+    <p>Photo by <a href="Image by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1282314">Pexels</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1282314">Pixabay</a>"
+
+  </small></i></p>
+      <div class="socialMediaLinks">
+   <small><i><a href="https://twitter.com" class="fa fa-twitter" target="_blank"></a>
+<a href="https://instagram.com/n1tya.n/" class="fa fa-instagram" target="_blank"></a>
+<a href="https://facebook.com" class="fa fa-facebook" target="_blank"></a>
+<a href="https://linkedin.com/in/nitya-naduvalath/" class="fa fa-linkedin" target="_blank">
+<a href="https://github.com" class="fa fa-github" target="_blank">
+</a></i></small>
+      </div>
+  </footer>
+  
+  
+  <script src="script.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
