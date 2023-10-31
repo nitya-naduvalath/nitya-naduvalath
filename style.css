@@ -23,6 +23,46 @@ nav {
   background-color: #b6cdcf;
 }
 
+/* Tablet Styles */
+@media only screen and (max-width: 1023px) and (min-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  nav button {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+  }
+
+  nav.active ul {
+    display: flex;
+  }
+}
+
+/* Smartphone Styles */
+@media only screen and (max-width: 599px) {
+  body {
+    font-size: 14px;
+  }
+
+  nav button {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+  }
+
+  nav.active ul {
+    display: flex;
+  }
+}
+
 main {
   padding-left: 30px;
   padding-right: 30px;

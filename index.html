@@ -14,15 +14,23 @@
   <header align='center'>
     <h1>Welcome to Nitya's website</h1>
   </header>
-  <nav align='center'>
-    <a href='https://www.google.com/' target="_blank">Visit Google</a> &nbsp; &nbsp;
-    <a href='https://www.asu.edu'>Visit ASU</a>
-    <a href='#home'>Home</a> &nbsp; &nbsp;
-    <a href='#education'>Education</a> &nbsp; &nbsp;
-    <a href='#projects'>Projects</a> &nbsp; &nbsp;
-    <a href='#Resume'>Resume</a> &nbsp; &nbsp;
-    <a href='#contact'>Contact Me</a> &nbsp; &nbsp;
-    </nav>
+  <nav>
+  <!-- For nav to change depending on device -->
+    <script>
+    function toggleNav() {
+    var nav = document.querySelector('nav');
+    nav.classList.toggle('active');
+    }
+    </script>
+    <button onclick="toggleNav()">☰ Menu</button>
+    <ul>
+      <li><a class="active" href='index.html'>Home</a></li>
+      <li><a href='#education'>Education</a></li>
+      <li><a href='#projects'>Projects</a></li>
+      <li><a href='#Resume'>Resume</a></li>
+      <li><a href='#contact'>Contact Me</a></li>
+    </ul>
+    </nav>
   <div align='center'>
     <img src="clouds-1282314_1280.jpg" alt="WPCarey"
     title="W.P. Carey School of Business" width="900px" height="600px">
@@ -147,7 +155,7 @@
 <a href="https://instagram.com/n1tya.n/" class="fa fa-instagram" target="_blank"></a>
 <a href="https://facebook.com" class="fa fa-facebook" target="_blank"></a>
 <a href="https://linkedin.com/in/nitya-naduvalath/" class="fa fa-linkedin" target="_blank">
-<a href="https://github.com" class="fa fa-github" target="_blank">
+<a href="https://github.com/nitya-naduvalath" class="fa fa-github" target="_blank">
 </a></i></small>
       </div>
   </footer>
